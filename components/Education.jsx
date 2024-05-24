@@ -13,7 +13,7 @@ const educationArr = [
 
 const Education = () => {
   return (
-    <>
+    <div>
     <h1>Education</h1>
       {educationArr.map((educationDict) => (
               <div className='educationOne'>
@@ -21,7 +21,7 @@ const Education = () => {
                 <h3>{educationDict.desc}</h3>
               </div>
           ))}
-    </>
+    </div>
   )
 }
 

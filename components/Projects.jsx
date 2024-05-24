@@ -37,7 +37,7 @@ const projectsDetailsArr = [
 
 function ProjectsSection() {
     return(
-        <>
+        <div>
             <h1>Projects</h1>
             {projectsDetailsArr.map((projectDict) => (
                 <div className='singleProject'>
@@ -51,7 +51,7 @@ function ProjectsSection() {
                     ))}
                 </div>
             ))}
-        </>
+        </div>
     )
 };
 

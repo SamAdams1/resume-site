@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './reset.css'
 import './App.css'
 import IntroSection from '../components/Intro.jsx'
 import ProjectsSection from '../components/Projects.jsx'
@@ -15,25 +16,21 @@ function App() {
 
   return (
     <>
-      <div className="sun"> 
-        <div className="sun2"></div>
-      </div>
-      <div className="parentDiv">
-        <img className="moon" src="./src/assets/Moon.png" alt="" />
-      </div>
+      <div className="parentDiv"><div className="sun"></div></div>
 
       {/* <h1>Sam Adams' Resume</h1> */}
-      <IntroSection className="section"/>
-      <TechSkills />
-      <br />
-      <br />
-      <ProjectsSection />
-      <br />
-      <br />
-      <EducationSection />
-      <br />
-      <br />
-      <ExperienceSection />
+      <div className="sections">
+        <IntroSection />
+        <img src="./src/assets/clouds.png" alt="" className="clouds" />
+        <TechSkills />
+        <img src="./src/assets/clouds.png" alt="" className="clouds flipped" />
+
+        <ProjectsSection />
+        <EducationSection />
+        <ExperienceSection />
+      </div>
+      
+      <div className='horizon'></div>
     </>
   )
 }

@@ -10,7 +10,7 @@ const experienceArr = [
 
 const Experience = () => {
   return (
-    <>
+    <div>
       <h1>Experience</h1>
       {experienceArr.map((experienceDict, index) => (
           <div className='experienceSingle'>
@@ -19,7 +19,7 @@ const Experience = () => {
               <h3>{experienceDict.desc}</h3>
           </div>
       ))}
-    </>
+    </div>
     )
 
 }
