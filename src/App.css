@@ -5,6 +5,132 @@
   text-align: center;
 }
 
-.singleProject, .educationOne, .experienceSingle, .introSingle {
-  background-color: gray;
+.singleProject, .educationOne, .experienceSingle {
+  background-color: rgba(128, 128, 128, 0.507);
 }
+
+.intro {
+  margin: 30vh 0;
+}
+
+/* sun css */
+.sun{
+  position: fixed;
+  z-index: -2;
+
+  top: 85%;
+  left: 50%;
+
+  animation: rotate 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-fill-mode: forwards;
+
+  /* animation: arc 2s forwards;
+  margin: 8px 0 0; */
+}
+
+.sun:before {
+  content: '';
+  position: absolute;
+  
+  --sun-primary-color: #ff4500;
+  background-color: var(--sun-primary-color);
+  box-shadow: 0px 0px 40px 20px var(--sun-primary-color);
+  /* x offset, y offset, blur size, spread size, color */
+
+  left: -300px;
+  top: 10px;
+
+  --diameter: 25em;
+  width: var(--diameter);
+  height: var(--diameter);
+  border-radius: calc(var(--diameter) / 2);
+  transform: translate(-25em, 0%);
+}
+.sun2{
+  --sun-primary-color: #ff8800;
+  background-color: var(--sun-primary-color);
+  box-shadow: 0px 0px 40px 20px var(--sun-primary-color);
+}
+
+
+
+@keyframes rotate {
+  
+  from{
+    transform: rotate(-25deg);
+  }
+  to {
+    transform: rotate(250deg);
+  }
+}
+.parentDiv {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  }
+
+.moon {
+  z-index: -1;
+  top: 7%;
+  left: 41%;
+
+  background-color: gray;
+  box-shadow: 0px 0px 40px 20px gray;
+
+  --diameter: 20em;
+  width: var(--diameter);
+  height: var(--diameter);
+  border-radius: calc(var(--diameter) / 2);
+  
+  animation: slidedown 1s ease-out forwards;
+}
+
+@keyframes slidedown {
+  from{
+    transform: translateY(-10em);
+  }
+  to {
+    transform: translateY(11em);
+  }
+}
+
+/* @keyframes arc {
+  0%{
+    transform: rotate(30deg);
+  }
+  100%{
+    transform: rotate(200deg);
+  }
+} */
+
+/* 
+ECLIPSE
+
+
+.moon {
+  position: fixed;
+  z-index: -1;
+  
+
+  top: 7%;
+  left: 40%;
+
+  --diameter: 23.5em;
+  width: var(--diameter);
+  height: var(--diameter);
+  border-radius: var(--diameter);
+
+  background-color: gray;
+
+  transform: translate(-25em, 0%);
+
+  animation: rotate 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-fill-mode: forwards;
+}
+*/
