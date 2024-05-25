@@ -15,23 +15,28 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className='wrapper'>
       <div className="parentDiv"><div className="sun"></div></div>
 
       {/* <h1>Sam Adams' Resume</h1> */}
       <div className="sections">
         <IntroSection />
         <img src="./src/assets/clouds.png" alt="" className="clouds" />
-        <TechSkills />
-        <img src="./src/assets/clouds.png" alt="" className="clouds flipped" />
-
         <ProjectsSection />
+        <img src="./src/assets/clouds.png" alt="" className="clouds flipped" />
+        <TechSkills />
+        <img src="./src/assets/mtn1.png" alt="" className="mountain" />
+        <img src="./src/assets/mtn2.png" alt="" className="mountain" />
+        <img src="./src/assets/mtn3.png" alt="" className="mountain" />
+
+      
+
         <EducationSection />
         <ExperienceSection />
       </div>
       
       <div className='horizon'></div>
-    </>
+    </div>
   )
 }
  

@@ -1,18 +1,40 @@
+let imageData = [
+  {
+    src: "./src/assets/icons/javascript.svg",
+  },
+  {
+    src: "./src/assets/icons/python.svg",
+  },
+  {
+    src: "./src/assets/icons/react.svg",
+  },
+  {
+    src: "./src/assets/icons/mongodb-icon.svg",
+  },
+  {
+    src: "./src/assets/icons/expressjs.svg",
+  },
+  {
+    src: "./src/assets/icons/godot.svg",
+  },
+]
+
 
 const TechSkills = () => {
   return (
-    <div className="techSkills clouds">
-      <h2>Technical Skills</h2>
-      {/* <h3>, , , Git, GitHub, JavaScript, HTML, CSS</h3> */}
+    <div className="techSkills">
+      <h1>Technical Skills</h1>
+
       <div className="skillGrid">
-        <p>JavaScript</p>
-        <p>Python</p>
-        <p>Godot Engine</p>
-        <p>Git</p>
-        <p>GitHub</p>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>React</p>
+        {imageData.map((imgOptions, index) => (
+          <>
+            {console.log()}
+            <div className={"balloons anim"+index%2}>
+              <img src="./src/assets/balloon.png" alt="" className={"balloonImg anim"} key={"balloon"+index}/>
+              <img src={imgOptions.src} alt="" className="skillImg" key={"img"+index}/>
+            </div>
+          </>
+        ))}
       </div>
     </div>
   )

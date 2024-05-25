@@ -2,14 +2,14 @@ import { SocialIcon } from 'react-social-icons';
 
 const projectsDetailsArr = [
     {
-        title: "Cosmic Crusade",
+        title: "Cosmic Campaign",
         desc: [
             "A fast-paced top-down space shooter rougelike game, defeat an endless onslaught of enemies to upgrade your ship and take on stronger foes!",
             "Sole Contributor",
             "GDScript, Godot Engine, LibreSprite, AudioMass, GitHub",
         ],
-        repoLink: "https://github.com/SamAdams1/Cosmic-Crusade",
-        demoLink: "https://sams-studio.itch.io/cosmic-crusade",
+        repoLink: "https://github.com/SamAdams1/Cosmic-Campaign",
+        demoLink: "https://sams-studio.itch.io/cosmic-campaign",
     },
     {
         title: "Historical Battle Map",
@@ -37,7 +37,8 @@ const projectsDetailsArr = [
 
 function ProjectsSection() {
     return(
-        <div>
+        <div className='projectsSect'>
+            <button>DarkMode</button>
             <h1>Projects</h1>
             {projectsDetailsArr.map((projectDict) => (
                 <div className='singleProject'>
