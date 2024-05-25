@@ -38,7 +38,7 @@ const projectsDetailsArr = [
 function ProjectsSection() {
     return(
         <div className='projectsSect'>
-            <button>DarkMode</button>
+            {/* <button>DarkMode</button> */}
             <h1>Projects</h1>
             {projectsDetailsArr.map((projectDict) => (
                 <div className='singleProject'>

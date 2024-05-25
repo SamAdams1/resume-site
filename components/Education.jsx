@@ -13,7 +13,7 @@ const educationArr = [
 
 const Education = () => {
   return (
-    <div>
+    <div className='educationSect'>
     <h1>Education</h1>
       {educationArr.map((educationDict) => (
               <div className='educationOne'>
