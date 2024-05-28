@@ -3,14 +3,14 @@ import { SocialIcon } from 'react-social-icons';
 const projectsDetailsArr = [
 {
 title: "Cosmic Campaign",
-desc: "A fast-paced top-down space shooter rougelike game, defeat an endless onslaught of enemies to upgrade your ship and take on stronger foes!",
+desc: "A fast-paced top-down space shooter rougelike game. Learned how to plan a large project, transfer skills, learn new technology quickly, brainstorm ideas, navigate documentation, and fix bugs.",
 tech: "GDScript, Godot Engine, LibreSprite, AudioMass, GitHub",
 repoLink: "https://github.com/SamAdams1/Cosmic-Campaign",
 demoLink: "https://sams-studio.itch.io/cosmic-campaign",
 },
 {
 title: "Historical Battle Map",
-desc: "A map that displays important historical battles on a world map. Battles are sorted by modern country borders. Click on the red dot to get info on the battle. All location data and summaries sourced from wikipedia.",
+desc: "A map that displays important historical battles on a world map. Learned how to use APIs, use web sockets, connect to a primary database, and create user authentication.",
 tech: "Leaflet Api, Wikipedia Api, JavaScript, HTML, CSS",
 repoLink: "https://github.com/SamAdams1/battles-map",
 demoLink: "https://samadams1.github.io/battles-map/",

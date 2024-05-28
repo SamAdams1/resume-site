@@ -5,13 +5,13 @@ const experienceArr = [
     title: "Cashier",
     company: "MarketBasket",
     date: "2020 - 2022",
-    desc: "Learned adaptability in unexpected situations, time management while under pressure, problem-solving, organization, and teamwork with coworkers.",
+    desc: "Learned adaptability in unexpected situations, organization, and teamwork with coworkers.",
   },
   {
     title: "Service Clerk",
     company: "HannaFord",
     date: "2022 - 2024",
-    desc: "Learned adaptability in unexpected situations, time management while under pressure, problem-solving, organization, and teamwork with coworkers.",
+    desc: "Learned the importance of communication, time management while under pressure, and problem-solving.",
   },
 ];
 
