@@ -155,21 +155,29 @@ h4 {
 .projectLinks > * {
   margin: 0 .5em;
   padding: .7em;
-  /* border: solid gray .2em; */
   border-radius: .25em;
 
-  /* color: black; */
   text-decoration: none;
   font-size: large;
 }
 .codeLink{
   color: var(--sun-glow);
-  background-color:  var(--sun-center)
+  background-color:  var(--sun-center);
 
+  --hover-bg-color: var(--sun-glow);
+  --hover-font-color: var(--sun-center);
 }
 .siteLink {
   color: var(--sun-center);
   background-color: var(--sun-glow);
+
+  --hover-bg-color: var(--sun-center);
+  --hover-font-color: var(--sun-glow);
+}
+.siteLink:hover, .codeLink:hover {
+  text-decoration: underline;
+  color: var(--hover-font-color);
+  background-color: var(--hover-bg-color);
 }
 
 
