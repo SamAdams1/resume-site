@@ -6,6 +6,7 @@ import ProjectsSection from '../components/Projects.jsx'
 import EducationSection from '../components/Education.jsx'
 import ExperienceSection from '../components/Experience.jsx'
 import TechSkills from '../components/TechSkills.jsx'
+import Header from '../components/Header.jsx'
 
 
 window.addEventListener('scroll', () => {
@@ -20,28 +21,41 @@ function App() {
       <div className="parentDiv">
         <div className="sun"></div>
       </div>
+        <Header />
 
-      {/* <h1>Sam Adams' Resume</h1> */}
-      <div className="sections ">
-        <IntroSection />
-        <img src="./src/assets/clouds.png" alt="" className="clouds" />
-        <ProjectsSection />
-        <img src="./src/assets/clouds.png" alt="" className="clouds flipped" />
+        <div className="firstSect">
+          <IntroSection />
+        </div>
+
+        <img src="./src/assets/clouds.png" className="clouds"/>
+        <div className="cloudSect">
+          <div className="coverGap gap1"></div>
+          <ProjectsSection />
+          <div className="coverGap gap2"></div>
+        </div>
+        <img src="./src/assets/clouds.png" className="clouds flipped" />
+
         <TechSkills />
 
         <div className="parallax">
-          <img src="./src/assets/mtn1.png" alt="" className="mountain mtn1" />
-          <img src="./src/assets/mtn2.png" alt="" className="mountain mtn2" />
-          <img src="./src/assets/mtn3.png" alt="" className="mountain mtn3" />
+          <img src="./src/assets/mtn1.png" className="mountain mtn1" />
+          <img src="./src/assets/mtn2.png" className="mountain mtn2" />
+          <img src="./src/assets/mtn3.png" className="mountain mtn3" />
         </div>
-          <EducationSection />
-        <div className="parallax treeSect">
-          <img src="./src/assets/tree1.png" alt="" className="trees tree1" />
-          <img src="./src/assets/tree2.png" alt="" className="trees tree2" />
-        </div>
-        <ExperienceSection />
 
-      </div>
+        <div className="mtnSect">
+          <EducationSection />
+        </div>
+
+        <div className="treeSect parallax">
+          <img src="./src/assets/tree1.png" className="trees tree1" />
+          <img src="./src/assets/tree2.png" className="trees tree2" />
+        </div>
+
+        <div className='finalSect'>
+            <ExperienceSection />
+            <img src="./src/assets/mtn-sunset.png" className='sunset-photo' />
+        </div>
       
       <div className='footer'></div>
     </div>
