@@ -1,0 +1,114 @@
+{
+  "intro": {
+    "name": "Sam Adams",
+    "tagline": "Software Engineer at Fidelity Investments | Google TechWise Alumni.",
+    "social": [
+      {
+        "url": "https://www.linkedin.com/in/samadams14"
+      },
+      {
+        "url": "https://github.com/SamAdams1?tab=repositories"
+      }
+    ]
+  },
+  "techSkills": [
+    {
+      "src": "./src/assets/icons/javascript.svg"
+    },
+    {
+      "src": "./src/assets/icons/python.svg"
+    },
+    {
+      "src": "./src/assets/icons/react.svg"
+    },
+    {
+      "src": "./src/assets/icons/mongodb-icon.svg"
+    },
+    {
+      "src": "./src/assets/icons/expressjs.svg"
+    },
+    {
+      "src": "./src/assets/icons/godot.svg"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Associate Software Engineer",
+      "company": "Fidelity Investments",
+      "date": "August 2025 - Present",
+      "desc": "Develop full-stack features using Java, Spring Boot, TypeScript, and Angular. Design PostgreSQL schemas and ER diagrams based on application requirements. Build CI/CD pipelines with Jenkins, Docker, and AWS. Write automated tests using test-driven development. Collaborate in an agile team, analyzing requirements and pair programming."
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "Fidelity Investments",
+      "date": "June 2025 - August 2025",
+      "desc": "Solved CShell log rotation memory leak for consumer axis data. Utilized COBOL, JCL, and mainframe technologies, attaining understanding of mature at-scale technical systems."
+    },
+    {
+      "title": "Student Researcher",
+      "company": "Southern New Hampshire University",
+      "date": "December 2024 - June 2025",
+      "desc": "Integrated artificial intelligence with robotics to create a UR3 robot that can play chess against humans. Recognized chess pieces and analyzed board state with computer vision and machine learning. Taught robot to grab and move chess pieces. Secured $750 in undergraduate research funding."
+    },
+    {
+      "title": "Engineering Lab Assistant",
+      "company": "Southern New Hampshire University",
+      "date": "September 2024 - June 2026",
+      "desc": "Aided students' completion of capstones by creating systems to store highly specialized machine parts, enabling easy sourcing."
+    },
+    {
+      "title": "Software Engineer Fellow",
+      "company": "TalentSprint Inc.",
+      "date": "March 2023 - September 2024",
+      "desc": "Selected among the top 120 students across select colleges for TechWise, a program offered by TalentSprint and supported by Google. Cultivated Industry-Ready Skills in Python, Web Development, DSA, and Corporate Proficiency."
+    }
+  ],
+  "education": [
+    {
+      "title": "Bachelor of Science - Computer Science",
+      "location": "Southern New Hampshire University, NH, USA",
+      "desc": "2024 - 2026. Studying Data Structures and Algorithms, Software Development, Object-Oriented Programming, Computer Architecture, Database Management Systems, and more. Applied Mathematics Minor."
+    },
+    {
+      "title": "Associate of Science - Computer Science",
+      "location": "Manchester Community College, NH, USA",
+      "desc": "2022 - 2024. Completed coursework in Data Structures and Algorithms, Quality Assurance, and Object-Oriented Programming."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Historical Battle Wiki",
+      "desc": "A map that displays important historical battles on a world map, allows history nerds to talk to eachother, and provides a wiki to add new battles to the database. A passion project that combines my love of history and coding.",
+      "tech": "JavaScript, React, Expressjs, Nodejs, MongoDB, Python, TailwindCSS, JWT, Bcrypt, Google Cloud Run, Vercel, Websockets",
+      "repoLink": "https://github.com/SamAdams1/battles-map",
+      "demoLink": "https://samadams1.github.io/battles-map/"
+    },
+    {
+      "title": "UR3 Robot Chess AI System",
+      "desc": "Integrated artificial intelligence with robotics to create a real-life chess-playing robot. Recognized chess pieces and analyzed board state using computer vision and machine learning. Programmed a UR3 robot arm to grab and move chess pieces with precision. Demonstrates ability to learn new technologies quickly and manage complex projects.",
+      "tech": "Python, Computer Vision, Machine Learning, UR3 Robotics, AI",
+      "repoLink": "https://github.com/SamAdams1"
+    },
+    {
+      "title": "Historical Battle Wiki",
+      "desc": "A map that displays important historical battles on a world map, allows history nerds to talk to eachother, and provides a wiki to add new battles to the database. Optimized the MERN-based app to handle 8,000+ data points with 56% faster load times.",
+      "tech": "JavaScript, React, Expressjs, Nodejs, MongoDB, Python, TailwindCSS, JWT, Bcrypt, Google Cloud Run, Vercel, Websockets",
+      "repoLink": "https://github.com/SamAdams1/battles-map",
+      "demoLink": "https://samadams1.github.io/battles-map/"
+    },
+    {
+      "title": "Austrian Castle Locator",
+      "desc": "A website that displays all the castles in Austria. Demonstrates proficiency in learning new tech stacks quickly with a totally different technology approach than the Battle Wiki.",
+      "tech": "TypeScript, Angular, Java, Spring Boot, PostgreSQL, Vercel, Docker, AWS",
+      "repoLink": "http://github.com/SamAdams1/castle-finder",
+      "demoLink": "https://castle-finder.vercel.app/"
+    },
+    {
+      "title": "Cosmic Campaign",
+      "desc": "A fast-paced top-down space shooter rougelike game. Demonstrates ability to plan large projects.",
+      "tech": "GDScript, Godot Engine, Git, GitHub",
+      "repoLink": "https://github.com/SamAdams1/Cosmic-Campaign",
+      "demoLink": "https://sams-studio.itch.io/cosmic-campaign"
+    }
+  ]
+}
