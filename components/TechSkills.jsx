@@ -1,4 +1,20 @@
 import info from "./info.json";
+import balloonImg from "../src/assets/balloon.png";
+import javascriptIcon from "../src/assets/icons/javascript.svg";
+import pythonIcon from "../src/assets/icons/python.svg";
+import reactIcon from "../src/assets/icons/react.svg";
+import mongodbIcon from "../src/assets/icons/mongodb-icon.svg";
+import expressjsIcon from "../src/assets/icons/expressjs.svg";
+import godotIcon from "../src/assets/icons/godot.svg";
+
+const iconMap = {
+  "./src/assets/icons/javascript.svg": javascriptIcon,
+  "./src/assets/icons/python.svg": pythonIcon,
+  "./src/assets/icons/react.svg": reactIcon,
+  "./src/assets/icons/mongodb-icon.svg": mongodbIcon,
+  "./src/assets/icons/expressjs.svg": expressjsIcon,
+  "./src/assets/icons/godot.svg": godotIcon,
+};
 
 const TechSkills = () => {
   let altArr = [];
@@ -18,12 +34,12 @@ const TechSkills = () => {
             key={"ballonDiv" + index}
           >
             <img
-              src="./src/assets/balloon.png"
+              src={balloonImg}
               className={"balloonImg anim"}
               key={"balloon" + index}
             />
             <img
-              src={imgOptions.src}
+              src={iconMap[imgOptions.src]}
               alt={altArr[index]}
               className={"skillImg skill" + index}
               key={"img" + index}

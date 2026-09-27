@@ -7,6 +7,13 @@ import EducationSection from "../components/Education.jsx";
 import ExperienceSection from "../components/Experience.jsx";
 import TechSkills from "../components/TechSkills.jsx";
 import Header from "../components/Header.jsx";
+import cloudsImg from "./assets/clouds.png";
+import mtn1Img from "./assets/mtn1.png";
+import mtn2Img from "./assets/mtn2.png";
+import mtn3Img from "./assets/mtn3.png";
+import tree1Img from "./assets/tree1.png";
+import tree2Img from "./assets/tree2.png";
+import sunsetImg from "./assets/mtn-sunset.png";
 
 window.addEventListener(
   "scroll",
@@ -33,20 +40,20 @@ function App() {
         <IntroSection />
       </div>
 
-      <img src="./src/assets/clouds.png" className="clouds" />
+      <img src={cloudsImg} className="clouds" />
       <div className="cloudSect">
         <div className="coverGap gap1"></div>
         <ProjectsSection />
         <div className="coverGap gap2"></div>
       </div>
-      <img src="./src/assets/clouds.png" className="clouds flipped" />
+      <img src={cloudsImg} className="clouds flipped" />
 
       {/* <TechSkills /> */}
 
       <div className="parallax">
-        <img src="./src/assets/mtn1.png" className="mountain mtn1" />
-        <img src="./src/assets/mtn2.png" className="mountain mtn2" />
-        <img src="./src/assets/mtn3.png" className="mountain mtn3" />
+        <img src={mtn1Img} className="mountain mtn1" />
+        <img src={mtn2Img} className="mountain mtn2" />
+        <img src={mtn3Img} className="mountain mtn3" />
       </div>
 
       <div className="mtnSect">
@@ -54,13 +61,13 @@ function App() {
       </div>
 
       <div className="treeSect parallax">
-        <img src="./src/assets/tree1.png" className="trees tree1" />
-        <img src="./src/assets/tree2.png" className="trees tree2" />
+        <img src={tree1Img} className="trees tree1" />
+        <img src={tree2Img} className="trees tree2" />
       </div>
 
       <div className="finalSect">
         <ExperienceSection />
-        <img src="./src/assets/mtn-sunset.png" className="sunset-photo" />
+        <img src={sunsetImg} className="sunset-photo" />
       </div>
 
       <div className="footer"></div>
